@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: "https://blog-dedbrl7nl-pbsora.vercel.app",
+    origin: "https://sora-blog-empf0an5u-pbsora.vercel.app",
     credentials: true,
   })
 );
