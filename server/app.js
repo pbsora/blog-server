@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: "https://sora-blog-blond.vercel.app/",
+    origin: process.env.CLIENT_URL,
     credentials: true,
   })
 );
